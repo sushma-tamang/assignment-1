@@ -1,6 +1,7 @@
 import React from 'react'
 import img2 from "../images/download.jpg"
 import { Link } from 'react-router'
+
 export default function Description() {
     return (
         <div className='flex flex-col gap-5 bg-teal-800 w-full py-20 '>

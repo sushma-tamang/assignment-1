@@ -19,7 +19,7 @@ export default function Our() {
  </div>
 
  <div className='flex flex-col gap-2'>
-    <img className='rounded-xl w-full h-100 ' src={img10} alt=''/>
+    <img className='rounded-xl  h-50  ' src={img10} alt=''/>
 <h1 className='text-blue-500 font-serif font-bold text-2xl'>Shamed Katila Shrestha</h1>
 <h1 className=' text-xl text-left font-serif'> Clinical Pedriatic ( Pediatric Physiotherapist with 12 years of experience)</h1>
  </div>

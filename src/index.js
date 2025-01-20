@@ -9,20 +9,25 @@ import Services from './components/Services';
 import Gallery from './components/Gallery';
 import Our from './components/Our';
 import Contact from './components/Contact';
+import Napbar from './components/Napbar';
+import Footer from './components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<App/>} />
-      <Route path="about us" element={<About/>} />
-      <Route path="services" element={<Services />} />
-      <Route path="gallery" element={< Gallery/>} />
-      <Route path="our teams" element={< Our/>} />
-      <Route path="contact us" element={< Contact/>} />
-    </Routes>
-  </BrowserRouter>
+      <Napbar />
+
+      <Routes >
+        <Route path="/" element={<App/>} />
+        <Route path="about us" element={<About />} />
+        <Route path="services" element={<Services />} />
+        <Route path="gallery" element={< Gallery />} />
+        <Route path="our teams" element={< Our />} />
+        <Route path="contact us" element={< Contact />} />
+      </Routes><Footer />
+
+    </BrowserRouter>
   </React.StrictMode>
 );
 
